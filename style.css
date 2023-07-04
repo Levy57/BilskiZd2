@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    gap: 16rem;
+    align-items: center;
+}
+
+
+li img{
+    width: 80%;
+    height: 70%;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    list-style: none;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    list-style: none;
+    align-items: center;
+}
+
+.right img{
+    width: 15%;
+}
+
+.videoBanner{
+    display: flex;
+    justify-content: center;
+}
+
+.absolutnyNapis{
+    position: absolute;
+    background-color: transparent;
+    padding: 10rem;
+}
+
+.absolutnyNapis h1{
+    background-color: transparent;
+}
+
+.absolutnyNapis p{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.absolutnyNapis button{
+    height: 64px;
+    width: 128px;
+    font-size: 1.5rem;
+    border: 0;
+    border-radius: 5%;
+}
+
+.absolutnyNapis button:hover{
+    background-color: white;
+    color: black;
+}
+
+.videoFlex{
+    display: flex;
+    gap: 0.5rem;
+    overflow-y: hidden;
+}
+
+.videoBlock img{
+    width: 256px;
+    height: 192px;
+}
